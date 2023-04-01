@@ -1,0 +1,32 @@
+body {
+    background-color: #841617;
+}
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.login_button {
+    padding-top: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    font-size: 500%;
+}
+
+.username_password {
+    height: 50px;
+    width: 150%;
+    margin-right: 0;
+}
+
+.username {
+    padding-bottom: 20px;
+}
