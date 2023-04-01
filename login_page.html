@@ -7,22 +7,20 @@
 </head>
 
 <body>
-    <h6 class="name">
-        yOUr Money
-    </h6>
     <div class="login_box">
 
-        <div class="username">
-            <input class="username_password" placeholder="Enter Username" required>
-        </div>
+        <form id="login" class="user_input">
+            <input class="email_password" placeholder="Enter Email" required type="email" type="text">
 
-        <div class="password">
-            <input class="username_password" placeholder="Enter Password" required>
-        </div>
+            <input class="email_password" placeholder="Enter Password" required type="password" type="text">
 
-        <div class="login_button">
-            <button>Login</button>
-        </div>
+            <button type="button" class="login_button">Login</button>
+
+            <div class="button_wrapper">
+                <p>Don't have an account?</p>
+                <button type="button" class="signup_button">Signup</button>
+            </div>
+        </form>
     </div>
 </body>
 
