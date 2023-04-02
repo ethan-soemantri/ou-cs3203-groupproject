@@ -58,8 +58,13 @@ body {
     border-radius: 10px;
 }
 
-
 #login {
-    left: 810px;
-    top: 225px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 100px;
+}
+
+.logo {
+    position: relative;
+    bottom: 175px;
 }
