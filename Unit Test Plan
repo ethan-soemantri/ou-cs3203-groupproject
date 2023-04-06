@@ -1,0 +1,17 @@
+Test database connectivity: Ensure that the application can connect to the database successfully.
+
+Test user creation: Create a new user and check if the user was added to the database successfully.
+
+Test user authentication: Check if a user can log in with the correct username and password.
+
+Test user authorization: Ensure that only authorized users can access their bank balance information.
+
+Test account balance retrieval: Retrieve a user's account balance from the database and check if the value matches the expected balance.
+
+Test account balance update: Update a user's account balance in the database and check if the value has been updated correctly.
+
+Test invalid inputs: Check if the application handles invalid inputs, such as incorrect username or password, correctly.
+
+Test database rollback: Ensure that the database is rolled back to the previous state if a transaction fails.
+
+Test concurrency: Simulate multiple users accessing the same account simultaneously and check if the database transactions are executed correctly.
